@@ -1,0 +1,79 @@
+@import url(reset.css);
+
+.recuperacao {
+    background-color: yellow;
+}
+
+.reprovado {
+    background-color: red;
+}
+
+/* estilização do header */
+header{
+    background-color: #343838;
+    color: #f2f2f2;
+    height: 50px;
+}
+
+#titulo1{
+    padding-top: 13px;
+    text-align: center;
+    font-size: 22px;
+    /* estilização do texto 'notas e medias dos alunos */
+}
+ 
+
+.div-form{
+    /* estilização do formulário */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    /* max-width: 30%; */
+    width: 20%;
+    height: 360px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #008C96;
+    display: flexbox;
+    float: left;
+}
+
+
+#nome, #nota1, #nota2, #nota3, #nota4{
+    /* estilização do formulario     */
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+}
+
+#botao{
+    padding: 5px;
+}
+
+#botao2{
+    margin-bottom: 20px;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: #005F6B;
+    color: #ffffff;
+}
+
+/*  */
+
+#tabelaAlunos{
+    /* float: right;
+    margin-right: 600px; */
+    border: 1px solid black;
+}
+
+th{
+    border: 1.5px solid black;
+    padding: 25px;
+    background-color: #008C96;
+    color: #ffffff;
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim Escolar</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+    <!-- Titulo -->
+
+    <header >
+
+        <h1 id="titulo1">Notas e Médias dos Alunos</h1>
+
+    </header>
+
+    <!-- Div que contem todo o conteudo da pagina -->
+
+    <div class="div-total">
+      <!-- Div do formulario -->
+
+      <div class="div-form">      
+
+          <form id="formulario" action="">
+              <input type="text" id="nome" class="box-info" placeholder="Nome: "> <br><br>
+              <input type="number" id="nota1" min="0" max="100" class="box-info" placeholder="Nota 1° bimestre"> <br><br>
+              <input type="number" id="nota2" min="0" max="100" class="box-info" placeholder="Nota 2° bimestre"> <br><br>
+              <input type="number" id="nota3" min="0" max="100" class="box-info" placeholder="Nota 3° bimestre"> <br><br>
+              <input type="number" id="nota4" min="0" max="100" class="box-info" placeholder="Nota 4° bimestre"> <br><br>
+          </form>
+
+          <div id="botao">
+            <button id="botao2" type="button" onclick="adicionarAluno();">ADICIONAR</button>
+          </div>
+      </div>
+
+      <br> <br><br><br>
+
+        <!-- div total das 3 tabelas -->
+
+      <div class="div-tables">
+
+      <!-- Tabela geral -->      
+
+        <table id="tabelaAlunos">
+          <tr>
+            <th>Alunos</th>
+            <th>1° bim</th>
+            <th>2° bim</th>
+            <th>3° bim</th>
+            <th>4° bim</th>
+            <th>Média</th>
+            <th>Situação</th>
+          </tr>
+        </table>
+
+        <br><br><br>
+
+      <!-- tabela da media final da turma -->
+
+        <table id="tabelaMediaGeral">
+          <tr>
+            <th>Média Geral da Sala</th>
+          </tr>
+        </table>
+
+ 
+
+        <br><br><br>
+
+      <!-- Tabelas de alunos abaixo da media da sala -->
+
+        <h1>Alunos Abaixo da Média da sala</h1>
+        <table id="tabelaAbaixoMedia">
+          <tr>
+            <th>Nome</th>
+            <th>Média</th>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+ 
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
